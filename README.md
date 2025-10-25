@@ -100,5 +100,5 @@ The API supports CRUD operations with proper authorization and relational data b
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/blog-api.git
+git clone [https://github.com/yourusername/blog-api.git](https://github.com/keshavroka55/Node-blog-backend/tree/master)
 cd blog-api
