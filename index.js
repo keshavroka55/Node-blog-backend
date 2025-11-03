@@ -31,12 +31,8 @@ app.use('/api/comments', commentRoutes);
 app.use('/api/likes', require('./src/Routes/likeRoute'));
 
 
-const port = config.PORT; 
-
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
-});
-
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 
 module.exports = db;
